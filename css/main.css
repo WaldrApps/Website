@@ -50,6 +50,7 @@ body {
   border: 1px solid black;
   border-radius:5px;
   cursor:pointer;
+  margin-bottom:20px;
 }
 
 #exit:hover {
@@ -79,6 +80,15 @@ body {
   -webkit-transform: rotate(90deg);
   /* Safari and Chrome */
   Z-index: 2;
+}
+
+.shard {
+  width:90%;
+  margin:auto;
+  background-color:#f4ddbf;
+  border-radius:10px;
+  clear:both;
+  margin-bottom: 30px;
 }
 
 
