@@ -1,0 +1,103 @@
+body {
+  background-color: #907163;
+}
+
+.navbar-expand-md {
+  background-color: #f4ddbf;
+}
+
+.dropdown {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  background-color: blue;
+}
+
+.indexcity {
+  z-index: 9999;
+}
+
+.right {
+  right: 0 !important;
+  left: 0 !important;
+}
+
+.fadeIn {
+  opacity: 1 !important;
+}
+
+.fadeOut {
+  opacity: 0 !important;
+}
+
+.content {
+  width: 100%;
+  min-height: calc(100vh - 56px);
+  background-color: #e1a95f;
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  z-index: -1;
+  transition: opacity 1s ease-out;
+  padding:10px;
+}
+
+#exit {
+  float:right;
+  width: 50px;
+  height: 50px;
+  background-color: #794f17;
+  border: 1px solid black;
+  border-radius:5px;
+  cursor:pointer;
+}
+
+#exit:hover {
+  background-color:#cb8527;
+}
+
+.mdiv {
+  height: 50px;
+  width: 2px;
+  margin-left: 23px;
+  background-color: black;
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  /* IE 9 */
+  -webkit-transform: rotate(45deg);
+  /* Safari and Chrome */
+  Z-index: 1;
+}
+
+.md {
+  height: 50px;
+  width: 2px;
+  background-color: black;
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  /* IE 9 */
+  -webkit-transform: rotate(90deg);
+  /* Safari and Chrome */
+  Z-index: 2;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .navbar-collapse {
+    background-color: #b1998e;
+    position: fixed;
+    top: 56px;
+    transition: all 0.8s ease-out;
+    height: 100%;
+    width: 100%;
+    left: 768px;
+  }
+
+  .nav-item {
+    text-align: center;
+  }
+
+  .nav-item:hover {
+    background-color:#907163;
+  }
+}
