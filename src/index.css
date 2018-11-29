@@ -1,0 +1,68 @@
+body {
+  background-color: #907163;
+  margin: 0;
+}
+
+.navbar {
+  background-color: #f4ddbf;
+  padding: 0;
+}
+
+.nav-link {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.navbar-brand {
+    margin: 0;
+    padding: 13px;
+}
+
+.active {
+  background-color: #b1998e;
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar-collapse {
+    background-color: #b1998e;
+    position: fixed;
+    top: 56px;
+    transition: all 0.8s ease-out;
+    height: 100%;
+    width: 100%;
+    left: 768px;
+  }
+
+  .nav-item {
+    text-align: center;
+  }
+
+  .nav-item:hover {
+    background-color:#907163;
+  }
+}
+
+.content {
+  background-color: #e1a95f;
+  padding: 20px;
+  margin: 20px;
+}
+
+.content h2 {
+  padding: 0;
+  padding-bottom: 20px;
+  margin: 0;
+}
+
+.svgContainer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+.linkedin {
+    float: right;
+}
