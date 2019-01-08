@@ -11,9 +11,9 @@ import Ongoing from "./Ongoing";
 import Completed from "./Completed";
 import Contact from "./Contact";
 
-{/*
+/*
     Routing tutorial: https://www.kirupa.com/react/creating_single_page_app_react_using_react_router.htm
-*/}
+*/
 class Main extends Component {
   render() {
     return (

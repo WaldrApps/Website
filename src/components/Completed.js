@@ -5,6 +5,8 @@ class Completed extends Component {
     return (
         <div>
           <h2>Completed Projects</h2>
+              <h2>WIP</h2>
+          
         </div>
     );
   }

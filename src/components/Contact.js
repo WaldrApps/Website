@@ -12,6 +12,8 @@ class Contact extends Component {
         return (
             <div>
                 <h2>Contact Us!</h2>
+                    <h2>WIP</h2>
+                
                 <div>
                     <h3>WaldrApps</h3>
                         <a href="https://github.com/WaldrApps">Github</a>

@@ -5,6 +5,8 @@ class Future extends Component {
     return (
       <div>
         <h2>Future Projects</h2>
+            <h2>WIP</h2>
+        
       </div>
     );
   }

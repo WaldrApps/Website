@@ -44,8 +44,6 @@ body {
 
 .content {
   background-color: #e1a95f;
-  padding: 20px;
-  margin: 20px;
 }
 
 .content h2 {
@@ -58,7 +56,6 @@ body {
     position: relative;
     width: 100%;
     height: auto;
-    margin: 0;
     pointer-events: none;
     overflow: hidden;
 }
