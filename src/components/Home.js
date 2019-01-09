@@ -12,7 +12,7 @@ class Home extends Component {
                 <svg id="waldrapp" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 768">
                     <defs>
                         <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
-                            <stop offset="0%" stopColor="#4385ff" stopOpacity="1" />
+                            <stop offset="0%" stopColor="#1976d2" stopOpacity="1" />
                             <stop offset="100%" stopColor="#ffffff" stopOpacity="1" />
                         </linearGradient>
                         <linearGradient id="headGradient" x1="0%" y1="0%" x2="0%" y2="100%">

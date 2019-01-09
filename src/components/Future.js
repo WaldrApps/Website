@@ -4,9 +4,9 @@ class Future extends Component {
   render() {
     return (
       <div>
-        <h2>Future Projects</h2>
+        <h1>Future Projects</h1>
             <h2>WIP</h2>
-        
+
       </div>
     );
   }

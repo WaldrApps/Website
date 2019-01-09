@@ -4,7 +4,7 @@ class Ongoing extends Component {
   render() {
     return (
       <div>
-          <h2>Ongoing Projects</h2>
+          <h1>Ongoing Projects</h1>
               <h2>WIP</h2>
       </div>
     );

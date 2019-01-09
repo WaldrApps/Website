@@ -1,11 +1,12 @@
 body {
-  background-color: #907163;
-  margin: 0;
+    color: #ffffff;
+    background-color: #484848;
+    margin: 0;
 }
 
 .navbar {
-  background-color: #f4ddbf;
-  padding: 0;
+    background-color: #000000;
+    padding: 0;
 }
 
 .nav-link {
@@ -19,37 +20,49 @@ body {
 }
 
 .active {
-  background-color: #b1998e;
+  background-color: #212121;
 }
 
 @media only screen and (max-width: 767px) {
   .navbar-collapse {
-    background-color: #b1998e;
-    position: fixed;
-    top: 56px;
-    transition: all 0.8s ease-out;
-    height: 100%;
-    width: 100%;
-    left: 768px;
+      background-color: #000000;
+      position: fixed;
+      top: 56px;
+      transition: all 0.8s ease-out;
+      height: 100%;
+      width: 100%;
+      left: 768px;
   }
 
   .nav-item {
-    text-align: center;
-  }
-
-  .nav-item:hover {
-    background-color:#907163;
+      text-align: center;
   }
 }
 
 .content {
-  background-color: #e1a95f;
+  background-color: #484848;
 }
 
 .content h2 {
   padding: 0;
   padding-bottom: 20px;
   margin: 0;
+}
+
+.content h1 {
+    background-color: #212121;
+    text-align: center;
+    padding: 40px;
+}
+
+.content p {
+    text-align: center;
+    margin: 30px;
+}
+
+.content i {
+    text-align: center;
+    margin: 40px;
 }
 
 .svgContainer {

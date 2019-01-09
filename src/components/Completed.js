@@ -4,9 +4,8 @@ class Completed extends Component {
   render() {
     return (
         <div>
-          <h2>Completed Projects</h2>
-              <h2>WIP</h2>
-          
+          <h1>Completed Projects</h1>
+              <p>No projects completed...yet</p>
         </div>
     );
   }

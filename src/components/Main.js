@@ -19,7 +19,7 @@ class Main extends Component {
     return (
         <HashRouter>
             <div>
-                <nav className="navbar navbar-expand-md navbar-light sticky-top">
+                <nav className="navbar navbar-expand-md navbar-dark sticky-top">
                     <NavLink exact to="/" replace className="navbar-brand">WaldrApps</NavLink>
                     <button className="navbar-toggler navbar-toggle" type="button">
                         <span className="navbar-toggler-icon"></span>
