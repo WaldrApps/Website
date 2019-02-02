@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ProjectCard from './ProjectCard';
+import ProjectCard from './ProjectCard/';
 
 class Ongoing extends Component {
     render() {
@@ -8,12 +8,22 @@ class Ongoing extends Component {
                 <div>
                     <h1>Ongoing Projects</h1>
                 </div>
-                <div name="Cards" class="row">
-                    <div class="col-sm-1"></div>
-                    <div class="col-sm-10 col-md-5">
-                        <ProjectCard projectTitle="Plannit" />
+
+                <div className="row">
+
+                    <div style={{margin: '0% 5%' }} name="content" className="col">
+                        <div name="Cards" className="row">
+                        
+                            <div name="slot1" className="col-sm-6">
+                                <ProjectCard projectTitle="Plannit" />
+                            </div>
+
+                            <div name="slot2" className="col-sm-6">
+                                <ProjectCard projectTitle="To Be Named" />
+                            </div>
+                            
+                        </div>
                     </div>
-                    <div class="col-sm-1"></div>
                 </div>
             </div>
         );
