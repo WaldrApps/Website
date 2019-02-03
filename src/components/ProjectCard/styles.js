@@ -15,7 +15,7 @@ export const card = {
 export const titleBar = {
     borderStyle: 'solid',
     borderWidth: '0px 0px 1px 0px',
-    borderColor: '#000000',
+    borderColor: '#333333',
 };
 
 export const title = {
@@ -28,6 +28,7 @@ export const imageBox = {
     width: '100%',
     maxHeight: '60%',
     textAlign: 'center',
+    backgroundColor: '#404040',
 };
 
 export const image = {
@@ -36,6 +37,12 @@ export const image = {
     maxHeight: '60%'
 };
 
-export const cardDesc = {
+export const descBox = {
+    borderStyle: 'solid',
+    borderWidth: '1px 0px 0px 0px',
+    borderColor: '#333333'
+};
 
+export const cardDesc = {
+    textAlign: 'left',
 };

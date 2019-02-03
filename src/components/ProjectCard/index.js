@@ -13,7 +13,7 @@ class ProjectCard extends Component {
                 <div style={ styles.imageBox }>
                     <img style={ styles.image } src="https://picsum.photos/800" alt="Stock" />
                 </div>
-                <div>
+                <div style={ styles.descBox }>
                     <p style={ styles.cardDesc }>
                         Description Here
                     </p>
