@@ -35,7 +35,7 @@ class Contact extends Component {
                     <h3>Christopher Jamieson</h3>
                 </div>
                 <div>
-                    <h3>Kyle Conrad</h3>
+                    <h3>Kyle Conrad (<a href="https://github.com/KComrade53">GitHub</a>)</h3>
                 </div>
             </div>
         );
