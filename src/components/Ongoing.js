@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import ProjectCard from './ProjectCard/';
+import { projects } from "../data";
 
 class Ongoing extends Component {
     state = {
-        projectCount: 3,
-        currentCard: 1,
-        title: ['Plannit', 'To Be Named 1', 'To Be Named 2']
+        projectCount: 0,
+        currentCard: 0,
+        info: {},
     }
 
-    incrementCards = () => {
+    /* incrementCards = () => {
         this.setState({ currentCard: (this.state.currentCard < this.state.projectCount) ? this.state.currentCard + 1 : 1 });
     }
 
@@ -33,6 +34,14 @@ class Ongoing extends Component {
                 return this.state.title[0];
             }
         }
+    } */
+
+    getProject() {
+        this.setState({info: projects[this.state.currentCard]});
+    }
+
+    componentWillMount() {
+        this.getProject();
     }
 
     render() {
@@ -42,25 +51,25 @@ class Ongoing extends Component {
                 <div>
                     <h1>Ongoing Projects</h1>
                 </div>
-                <div className="row">
+                <div style={{ alignContent: "center" }} className="row">
 
-                    <div style={{margin: '0% 5%' }} name="content" className="col">
+                    <div style={{ margin: '0% 2%', alignItems: "center" }} name="content" className="col">
                         <div name="Cards" className="row">
-                        
+                            <div className="col-sm-3" />
                             <div name="slot1" className="col-sm-6">
-                                <ProjectCard projectTitle={this.getTitle(1)} />
+                                <ProjectCard info={this.state.info} />
                             </div>
-
-                            <div name="slot2" className="col-sm-6">
+                            <div className="col-sm-3" />
+                            {/* <div name="slot2" className="col-sm-6">
                                 <ProjectCard projectTitle={this.getTitle(2)} />
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
-                <div>
+                {/* <div>
                     <button onClick={this.decrementCards}>PREV</button>
                     <button onClick={this.incrementCards}>NEXT</button>
-                </div>
+                </div> */}
             </div>
         );
     }

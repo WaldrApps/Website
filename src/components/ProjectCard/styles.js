@@ -3,13 +3,11 @@ export const card = {
     width: '100%',
     height: 'auto',
     backgroundColor: '#595959',
-    borderColor: '#333333',
-    borderStyle: 'solid',
-    borderWidth: 1,
     borderRadius: 10,
     padding: '2% 0%',
     marginTop: '2%',
-    marginBottom: '5%'
+    marginBottom: '5%',
+    boxShadow: '0px 0px 6px 1px #000000',
 };
 
 export const titleBar = {
@@ -34,7 +32,7 @@ export const imageBox = {
 export const image = {
     height: 'auto',
     width: '90%',
-    maxHeight: '60%'
+    maxHeight: '360px'
 };
 
 export const descBox = {
